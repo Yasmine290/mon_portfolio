@@ -1,4 +1,4 @@
-/* Appliquer une police et une couleur de fond */
+/* Style général du site */
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
@@ -7,26 +7,27 @@ body {
     text-align: center;
 }
 
-/* Style pour l'en-tête */
+/* Style de l'en-tête */
 header {
-    background-color: #333;
+    background-color: #134;
     color: white;
     padding: 20px;
+    
 }
 
-/* Sections */
+/* Style pour toutes les sections */
 section {
     margin: 20px;
     padding: 20px;
     background-color: white;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
     border-radius: 10px;
     width: 60%;
     margin-left: auto;
     margin-right: auto;
 }
 
-/* Style pour les liens */
+/* Style des liens */
 a {
     color: #007bff;
     text-decoration: none;
@@ -35,4 +36,18 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+/* Style spécifique pour la liste des formations */
+#formation ul {
+    list-style-type: none; /* Supprime les puces */
+    padding: 0;
+}
+
+#formation li {
+    background-color: #eee;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
 }
